@@ -1,11 +1,24 @@
 {
-    "extends": [
-        "airbnb",
-        "plugin:react/recommended"
-    ],
-    "env": {
-        "es6": true,
-        "node": true
-    },
-    "parser": "babel-eslint"
+	"extends": [
+		"airbnb",
+		"plugin:react/recommended"
+	],
+	"env": {
+		"es6": true,
+		"node": true
+	},
+	"plugins": [
+		"flow-vars"
+	],
+	"parser": "babel-eslint",
+	"rules": {
+		"no-tabs": "off",
+		"indent": [
+			2,
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+	}
 }

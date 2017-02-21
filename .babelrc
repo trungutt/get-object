@@ -3,6 +3,7 @@
 		"latest"
 	],
 	"plugins": [
+		"transform-flow-strip-types",
 		"lodash"
 	]
 }
