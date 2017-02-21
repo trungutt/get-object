@@ -23,7 +23,8 @@ const fakeData = [
 		x: 5,
 		y: 0,
 		color: 'white',
-	}, {
+	},
+	{
 		x: 0,
 		y: 1,
 		color: 'white',
@@ -97,27 +98,27 @@ const fakeData = [
 		color: 'black',
 	}, {
 		x: 0,
-		y: 1,
+		y: 4,
 		color: 'white',
 	}, {
 		x: 1,
-		y: 1,
+		y: 4,
 		color: 'white',
 	}, {
 		x: 2,
-		y: 1,
+		y: 4,
 		color: 'black',
 	}, {
 		x: 3,
-		y: 1,
+		y: 4,
 		color: 'black',
 	}, {
 		x: 4,
-		y: 1,
+		y: 4,
 		color: 'black',
 	}, {
 		x: 5,
-		y: 1,
+		y: 4,
 		color: 'black',
 	},
 ];
