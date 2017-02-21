@@ -1,9 +1,28 @@
 {
-  "name": "get-object",
-  "version": "1.0.0",
-  "description": "",
-  "scripts": {
-  },
-  "author": "trungutt",
-  "license": "MIT"
+	"name": "get-object",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"start": "babel-node index.js",
+		"lint": "esw index.js --color",
+		"lint:watch": "npm run lint -- --watch"
+	},
+	"author": "trungutt",
+	"license": "MIT",
+	"dependencies": {
+		"lodash": "^4.17.4"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.23.0",
+		"babel-core": "^6.23.1",
+		"babel-eslint": "^7.1.1",
+		"babel-plugin-lodash": "^3.2.11",
+		"babel-preset-latest": "^6.22.0",
+		"eslint": "^3.16.0",
+		"eslint-config-airbnb": "^14.1.0",
+		"eslint-plugin-import": "^2.2.0",
+		"eslint-plugin-jsx-a11y": "^4.0.0",
+		"eslint-plugin-react": "^6.10.0",
+		"eslint-watch": "^3.0.0"
+	}
 }
