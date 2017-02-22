@@ -20,5 +20,6 @@
 				"SwitchCase": 1
 			}
 		],
+		"no-lonely-if": "off"
 	}
 }
